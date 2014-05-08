@@ -1,0 +1,29 @@
+ul li:first-child a {
+    color: #000;
+}
+
+ul li:nth-child(3) a {
+    color: red;
+}
+
+a:link {
+    font-weight: bolder;
+}
+
+a:active {
+    color: yellow;
+    background: black;
+}
+a:focus {
+
+}
+
+a:hover {
+    background: green;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:visited {
+    color: silver;
+}

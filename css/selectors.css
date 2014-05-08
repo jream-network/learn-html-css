@@ -1,0 +1,38 @@
+* {
+    border: 1px solid green;
+}
+
+/**
+ * border: 1px solid red;
+ */
+p {
+}
+
+p span {
+    border: 1px solid red;
+}
+
+span.super,
+p.super {
+    border: 2px solid purple;
+}
+
+div.pipe {
+    border: 2px solid green;
+}
+
+div.pipe p .cat {
+    border-bottom: 1px solid #000;
+}
+
+a[class="x"] {
+    color: red;
+}
+
+a[data-name="en"] {
+    color: maroon;
+}
+
+a[data-name|="en"] {
+    font-weight: bolder;
+}
