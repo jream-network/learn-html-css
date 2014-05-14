@@ -1,0 +1,20 @@
+#content div {
+    border: 2px solid blue;
+}
+
+div.width-height {
+    width: 200px;
+    height: 250px;
+    background: orange;
+}
+
+div.min {
+    min-height: 150px;
+    min-width: 500px;
+}
+
+div.max {
+    max-height: 200px;
+    max-width: 300px;
+    overflow: auto;
+}

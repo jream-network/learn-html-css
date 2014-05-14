@@ -1,0 +1,41 @@
+body {
+    font-size: 14px;
+}
+
+/** Favor */
+.percent {
+    font-size: 150%;
+}
+
+/** Favor */
+.em {
+    color: blue;
+    font-size: 2em;
+}
+
+.pt {
+    font-size: 25pt;
+}
+
+/** Favor */
+.px {
+    background: #fff;
+    font-size: 24px;
+}
+
+.pc {
+    color: red;
+    font-size: 2pc;
+}
+
+.in {
+    font-size: 0.5in;
+}
+
+.cm {
+    font-size: 2cm;
+}
+
+.mm {
+    font-size: 5mm;
+}
